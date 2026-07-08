@@ -28,7 +28,7 @@ export default function Contact() {
     setTimeout(() => {
       setIsSubmitting(false);
       setFormData({ name: '', email: '', message: '' });
-      alert('Message sent successfully! (This is a frontend demo)');
+      alert('Message submitted');
     }, 1500);
   };
 
